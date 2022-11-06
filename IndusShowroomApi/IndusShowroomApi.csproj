@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>91b55edc-dcca-41ff-97b4-ac79d5cad203</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.12" />
+		<PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.12" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.12" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.12">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.8.0" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.4" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.7" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+	</ItemGroup>
+
+	<!--<publishData>
+		<publishProfile profileName="testdomain.pk - Web Deploy" publishMethod="MSDeploy" publishUrl="https://testdomain.pk:8172/msdeploy.axd?site=testdomain.pk" msdeploySite="testdomain.pk" userName="mjamalic" destinationAppUrl="http://testdomain.pk" controlPanelLink="https://w1.hosterpk.com:8443"/>
+	</publishData>-->
+
+
+
+</Project>
